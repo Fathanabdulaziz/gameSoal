@@ -1,0 +1,2402 @@
+[
+  {
+    "difficulty": "basic",
+    "question": "int a = 5, b = 3;\nSystem.out.println(a + b);",
+    "choices": [
+      "5",
+      "8",
+      "53",
+      "Error"
+    ],
+    "answer": "8",
+    "id": 1
+  },
+  {
+    "difficulty": "basic",
+    "question": "String name = \"Java\";\nSystem.out.println(name.length());",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "Error"
+    ],
+    "answer": "4",
+    "id": 2
+  },
+  {
+    "difficulty": "basic",
+    "question": "int x = 10;\nx++;\nSystem.out.println(x);",
+    "choices": [
+      "10",
+      "11",
+      "9",
+      "Error"
+    ],
+    "answer": "11",
+    "id": 3
+  },
+  {
+    "difficulty": "basic",
+    "question": "class Animal { void sound() { System.out.println(\"Animal sound\"); }}\nclass Dog extends Animal { void bark() { System.out.println(\"Woof\"); }}\npublic class Main { public static void main(String[] args) { Dog d = new Dog(); d.sound(); }}",
+    "choices": [
+      "Woof",
+      "Animal sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Animal sound",
+    "id": 4
+  },
+  {
+    "difficulty": "basic",
+    "question": "class Animal { void makeSound() { System.out.println(\"Some sound\"); }}\nclass Cat extends Animal { void makeSound() { System.out.println(\"Meow\"); }}\npublic class Main { public static void main(String[] args) { Animal a = new Cat(); a.makeSound(); }}",
+    "choices": [
+      "Meow",
+      "Some sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Meow",
+    "id": 5
+  },
+  {
+    "difficulty": "basic",
+    "question": "abstract class Shape { abstract void draw(); }\nclass Circle extends Shape { void draw() { System.out.println(\"Drawing Circle\"); }}",
+    "choices": [
+      "Berhasil",
+      "Error",
+      "Menampilkan \u201cDrawing Circle\u201d",
+      "Tidak ada output"
+    ],
+    "answer": "Error",
+    "id": 6
+  },
+  {
+    "difficulty": "basic",
+    "question": "interface Flyable { void fly(); }\nclass Bird implements Flyable { public void fly() { System.out.println(\"Bird is flying\"); }}",
+    "choices": [
+      "Tidak apa-apa",
+      "Program tetap jalan",
+      "Error kompilasi",
+      "Error runtime"
+    ],
+    "answer": "Error kompilasi",
+    "id": 7
+  },
+  {
+    "difficulty": "basic",
+    "question": "class Parent { void show() { System.out.println(\"Parent\"); }}\nclass Child extends Parent { void show() { System.out.println(\"Child\"); }}\npublic class Main { public static void main(String[] args) { Parent p = new Child(); p.show(); }}",
+    "choices": [
+      "Parent",
+      "Child",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Child",
+    "id": 8
+  },
+  {
+    "difficulty": "basic",
+    "question": "class MathUtil { static int square(int x) { return x * x; }}\nSystem.out.println(MathUtil.square(5));",
+    "choices": [
+      "10",
+      "25",
+      "5",
+      "Error"
+    ],
+    "answer": "25",
+    "id": 9
+  },
+  {
+    "difficulty": "basic",
+    "question": "class Calculator { int add(int a, int b) { return a + b; }\ndouble add(double a, double b) { return a + b; }}\nSystem.out.println(new Calculator().add(2.0, 3.0));",
+    "choices": [
+      "Error",
+      "5.0",
+      "2.0",
+      "5"
+    ],
+    "answer": "5.0",
+    "id": 10
+  },
+  {
+    "difficulty": "basic",
+    "question": "int a = 5, b = 3;\nSystem.out.println(a + b);",
+    "choices": [
+      "5",
+      "8",
+      "53",
+      "Error"
+    ],
+    "answer": "8",
+    "id": 11
+  },
+  {
+    "difficulty": "basic",
+    "question": "String name = \"Java\";\nSystem.out.println(name.length());",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "Error"
+    ],
+    "answer": "4",
+    "id": 12
+  },
+  {
+    "difficulty": "basic",
+    "question": "int x = 10;\nx++;\nSystem.out.println(x);",
+    "choices": [
+      "10",
+      "11",
+      "9",
+      "Error"
+    ],
+    "answer": "11",
+    "id": 13
+  },
+  {
+    "difficulty": "basic",
+    "question": "class Animal { void sound() { System.out.println(\"Animal sound\"); }}\nclass Dog extends Animal { void bark() { System.out.println(\"Woof\"); }}\npublic class Main { public static void main(String[] args) { Dog d = new Dog(); d.sound(); }}",
+    "choices": [
+      "Woof",
+      "Animal sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Animal sound",
+    "id": 14
+  },
+  {
+    "difficulty": "basic",
+    "question": "class Animal { void makeSound() { System.out.println(\"Some sound\"); }}\nclass Cat extends Animal { void makeSound() { System.out.println(\"Meow\"); }}\npublic class Main { public static void main(String[] args) { Animal a = new Cat(); a.makeSound(); }}",
+    "choices": [
+      "Meow",
+      "Some sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Meow",
+    "id": 15
+  },
+  {
+    "difficulty": "basic",
+    "question": "abstract class Shape { abstract void draw(); }\nclass Circle extends Shape { void draw() { System.out.println(\"Drawing Circle\"); }}",
+    "choices": [
+      "Berhasil",
+      "Error",
+      "Menampilkan \u201cDrawing Circle\u201d",
+      "Tidak ada output"
+    ],
+    "answer": "Error",
+    "id": 16
+  },
+  {
+    "difficulty": "basic",
+    "question": "interface Flyable { void fly(); }\nclass Bird implements Flyable { public void fly() { System.out.println(\"Bird is flying\"); }}",
+    "choices": [
+      "Tidak apa-apa",
+      "Program tetap jalan",
+      "Error kompilasi",
+      "Error runtime"
+    ],
+    "answer": "Error kompilasi",
+    "id": 17
+  },
+  {
+    "difficulty": "basic",
+    "question": "class Parent { void show() { System.out.println(\"Parent\"); }}\nclass Child extends Parent { void show() { System.out.println(\"Child\"); }}\npublic class Main { public static void main(String[] args) { Parent p = new Child(); p.show(); }}",
+    "choices": [
+      "Parent",
+      "Child",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Child",
+    "id": 18
+  },
+  {
+    "difficulty": "basic",
+    "question": "class MathUtil { static int square(int x) { return x * x; }}\nSystem.out.println(MathUtil.square(5));",
+    "choices": [
+      "10",
+      "25",
+      "5",
+      "Error"
+    ],
+    "answer": "25",
+    "id": 19
+  },
+  {
+    "difficulty": "basic",
+    "question": "class Calculator { int add(int a, int b) { return a + b; }\ndouble add(double a, double b) { return a + b; }}\nSystem.out.println(new Calculator().add(2.0, 3.0));",
+    "choices": [
+      "Error",
+      "5.0",
+      "2.0",
+      "5"
+    ],
+    "answer": "5.0",
+    "id": 20
+  },
+  {
+    "difficulty": "basic",
+    "question": "int a = 5, b = 3;\nSystem.out.println(a + b);",
+    "choices": [
+      "5",
+      "8",
+      "53",
+      "Error"
+    ],
+    "answer": "8",
+    "id": 21
+  },
+  {
+    "difficulty": "basic",
+    "question": "String name = \"Java\";\nSystem.out.println(name.length());",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "Error"
+    ],
+    "answer": "4",
+    "id": 22
+  },
+  {
+    "difficulty": "basic",
+    "question": "int x = 10;\nx++;\nSystem.out.println(x);",
+    "choices": [
+      "10",
+      "11",
+      "9",
+      "Error"
+    ],
+    "answer": "11",
+    "id": 23
+  },
+  {
+    "difficulty": "basic",
+    "question": "class Animal { void sound() { System.out.println(\"Animal sound\"); }}\nclass Dog extends Animal { void bark() { System.out.println(\"Woof\"); }}\npublic class Main { public static void main(String[] args) { Dog d = new Dog(); d.sound(); }}",
+    "choices": [
+      "Woof",
+      "Animal sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Animal sound",
+    "id": 24
+  },
+  {
+    "difficulty": "basic",
+    "question": "class Animal { void makeSound() { System.out.println(\"Some sound\"); }}\nclass Cat extends Animal { void makeSound() { System.out.println(\"Meow\"); }}\npublic class Main { public static void main(String[] args) { Animal a = new Cat(); a.makeSound(); }}",
+    "choices": [
+      "Meow",
+      "Some sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Meow",
+    "id": 25
+  },
+  {
+    "difficulty": "basic",
+    "question": "abstract class Shape { abstract void draw(); }\nclass Circle extends Shape { void draw() { System.out.println(\"Drawing Circle\"); }}",
+    "choices": [
+      "Berhasil",
+      "Error",
+      "Menampilkan \u201cDrawing Circle\u201d",
+      "Tidak ada output"
+    ],
+    "answer": "Error",
+    "id": 26
+  },
+  {
+    "difficulty": "basic",
+    "question": "interface Flyable { void fly(); }\nclass Bird implements Flyable { public void fly() { System.out.println(\"Bird is flying\"); }}",
+    "choices": [
+      "Tidak apa-apa",
+      "Program tetap jalan",
+      "Error kompilasi",
+      "Error runtime"
+    ],
+    "answer": "Error kompilasi",
+    "id": 27
+  },
+  {
+    "difficulty": "basic",
+    "question": "class Parent { void show() { System.out.println(\"Parent\"); }}\nclass Child extends Parent { void show() { System.out.println(\"Child\"); }}\npublic class Main { public static void main(String[] args) { Parent p = new Child(); p.show(); }}",
+    "choices": [
+      "Parent",
+      "Child",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Child",
+    "id": 28
+  },
+  {
+    "difficulty": "basic",
+    "question": "class MathUtil { static int square(int x) { return x * x; }}\nSystem.out.println(MathUtil.square(5));",
+    "choices": [
+      "10",
+      "25",
+      "5",
+      "Error"
+    ],
+    "answer": "25",
+    "id": 29
+  },
+  {
+    "difficulty": "basic",
+    "question": "class Calculator { int add(int a, int b) { return a + b; }\ndouble add(double a, double b) { return a + b; }}\nSystem.out.println(new Calculator().add(2.0, 3.0));",
+    "choices": [
+      "Error",
+      "5.0",
+      "2.0",
+      "5"
+    ],
+    "answer": "5.0",
+    "id": 30
+  },
+  {
+    "difficulty": "medium",
+    "question": "int a = 5, b = 3;\nSystem.out.println(a + b);",
+    "choices": [
+      "5",
+      "8",
+      "53",
+      "Error"
+    ],
+    "answer": "8",
+    "id": 31
+  },
+  {
+    "difficulty": "medium",
+    "question": "String name = \"Java\";\nSystem.out.println(name.length());",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "Error"
+    ],
+    "answer": "4",
+    "id": 32
+  },
+  {
+    "difficulty": "medium",
+    "question": "int x = 10;\nx++;\nSystem.out.println(x);",
+    "choices": [
+      "10",
+      "11",
+      "9",
+      "Error"
+    ],
+    "answer": "11",
+    "id": 33
+  },
+  {
+    "difficulty": "medium",
+    "question": "class Animal { void sound() { System.out.println(\"Animal sound\"); }}\nclass Dog extends Animal { void bark() { System.out.println(\"Woof\"); }}\npublic class Main { public static void main(String[] args) { Dog d = new Dog(); d.sound(); }}",
+    "choices": [
+      "Woof",
+      "Animal sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Animal sound",
+    "id": 34
+  },
+  {
+    "difficulty": "medium",
+    "question": "class Animal { void makeSound() { System.out.println(\"Some sound\"); }}\nclass Cat extends Animal { void makeSound() { System.out.println(\"Meow\"); }}\npublic class Main { public static void main(String[] args) { Animal a = new Cat(); a.makeSound(); }}",
+    "choices": [
+      "Meow",
+      "Some sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Meow",
+    "id": 35
+  },
+  {
+    "difficulty": "medium",
+    "question": "abstract class Shape { abstract void draw(); }\nclass Circle extends Shape { void draw() { System.out.println(\"Drawing Circle\"); }}",
+    "choices": [
+      "Berhasil",
+      "Error",
+      "Menampilkan \u201cDrawing Circle\u201d",
+      "Tidak ada output"
+    ],
+    "answer": "Error",
+    "id": 36
+  },
+  {
+    "difficulty": "medium",
+    "question": "interface Flyable { void fly(); }\nclass Bird implements Flyable { public void fly() { System.out.println(\"Bird is flying\"); }}",
+    "choices": [
+      "Tidak apa-apa",
+      "Program tetap jalan",
+      "Error kompilasi",
+      "Error runtime"
+    ],
+    "answer": "Error kompilasi",
+    "id": 37
+  },
+  {
+    "difficulty": "medium",
+    "question": "class Parent { void show() { System.out.println(\"Parent\"); }}\nclass Child extends Parent { void show() { System.out.println(\"Child\"); }}\npublic class Main { public static void main(String[] args) { Parent p = new Child(); p.show(); }}",
+    "choices": [
+      "Parent",
+      "Child",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Child",
+    "id": 38
+  },
+  {
+    "difficulty": "medium",
+    "question": "class MathUtil { static int square(int x) { return x * x; }}\nSystem.out.println(MathUtil.square(5));",
+    "choices": [
+      "10",
+      "25",
+      "5",
+      "Error"
+    ],
+    "answer": "25",
+    "id": 39
+  },
+  {
+    "difficulty": "medium",
+    "question": "class Calculator { int add(int a, int b) { return a + b; }\ndouble add(double a, double b) { return a + b; }}\nSystem.out.println(new Calculator().add(2.0, 3.0));",
+    "choices": [
+      "Error",
+      "5.0",
+      "2.0",
+      "5"
+    ],
+    "answer": "5.0",
+    "id": 40
+  },
+  {
+    "difficulty": "medium",
+    "question": "int a = 5, b = 3;\nSystem.out.println(a + b);",
+    "choices": [
+      "5",
+      "8",
+      "53",
+      "Error"
+    ],
+    "answer": "8",
+    "id": 41
+  },
+  {
+    "difficulty": "medium",
+    "question": "String name = \"Java\";\nSystem.out.println(name.length());",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "Error"
+    ],
+    "answer": "4",
+    "id": 42
+  },
+  {
+    "difficulty": "medium",
+    "question": "int x = 10;\nx++;\nSystem.out.println(x);",
+    "choices": [
+      "10",
+      "11",
+      "9",
+      "Error"
+    ],
+    "answer": "11",
+    "id": 43
+  },
+  {
+    "difficulty": "medium",
+    "question": "class Animal { void sound() { System.out.println(\"Animal sound\"); }}\nclass Dog extends Animal { void bark() { System.out.println(\"Woof\"); }}\npublic class Main { public static void main(String[] args) { Dog d = new Dog(); d.sound(); }}",
+    "choices": [
+      "Woof",
+      "Animal sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Animal sound",
+    "id": 44
+  },
+  {
+    "difficulty": "medium",
+    "question": "class Animal { void makeSound() { System.out.println(\"Some sound\"); }}\nclass Cat extends Animal { void makeSound() { System.out.println(\"Meow\"); }}\npublic class Main { public static void main(String[] args) { Animal a = new Cat(); a.makeSound(); }}",
+    "choices": [
+      "Meow",
+      "Some sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Meow",
+    "id": 45
+  },
+  {
+    "difficulty": "medium",
+    "question": "abstract class Shape { abstract void draw(); }\nclass Circle extends Shape { void draw() { System.out.println(\"Drawing Circle\"); }}",
+    "choices": [
+      "Berhasil",
+      "Error",
+      "Menampilkan \u201cDrawing Circle\u201d",
+      "Tidak ada output"
+    ],
+    "answer": "Error",
+    "id": 46
+  },
+  {
+    "difficulty": "medium",
+    "question": "interface Flyable { void fly(); }\nclass Bird implements Flyable { public void fly() { System.out.println(\"Bird is flying\"); }}",
+    "choices": [
+      "Tidak apa-apa",
+      "Program tetap jalan",
+      "Error kompilasi",
+      "Error runtime"
+    ],
+    "answer": "Error kompilasi",
+    "id": 47
+  },
+  {
+    "difficulty": "medium",
+    "question": "class Parent { void show() { System.out.println(\"Parent\"); }}\nclass Child extends Parent { void show() { System.out.println(\"Child\"); }}\npublic class Main { public static void main(String[] args) { Parent p = new Child(); p.show(); }}",
+    "choices": [
+      "Parent",
+      "Child",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Child",
+    "id": 48
+  },
+  {
+    "difficulty": "medium",
+    "question": "class MathUtil { static int square(int x) { return x * x; }}\nSystem.out.println(MathUtil.square(5));",
+    "choices": [
+      "10",
+      "25",
+      "5",
+      "Error"
+    ],
+    "answer": "25",
+    "id": 49
+  },
+  {
+    "difficulty": "medium",
+    "question": "class Calculator { int add(int a, int b) { return a + b; }\ndouble add(double a, double b) { return a + b; }}\nSystem.out.println(new Calculator().add(2.0, 3.0));",
+    "choices": [
+      "Error",
+      "5.0",
+      "2.0",
+      "5"
+    ],
+    "answer": "5.0",
+    "id": 50
+  },
+  {
+    "difficulty": "medium",
+    "question": "int a = 5, b = 3;\nSystem.out.println(a + b);",
+    "choices": [
+      "5",
+      "8",
+      "53",
+      "Error"
+    ],
+    "answer": "8",
+    "id": 51
+  },
+  {
+    "difficulty": "medium",
+    "question": "String name = \"Java\";\nSystem.out.println(name.length());",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "Error"
+    ],
+    "answer": "4",
+    "id": 52
+  },
+  {
+    "difficulty": "medium",
+    "question": "int x = 10;\nx++;\nSystem.out.println(x);",
+    "choices": [
+      "10",
+      "11",
+      "9",
+      "Error"
+    ],
+    "answer": "11",
+    "id": 53
+  },
+  {
+    "difficulty": "medium",
+    "question": "class Animal { void sound() { System.out.println(\"Animal sound\"); }}\nclass Dog extends Animal { void bark() { System.out.println(\"Woof\"); }}\npublic class Main { public static void main(String[] args) { Dog d = new Dog(); d.sound(); }}",
+    "choices": [
+      "Woof",
+      "Animal sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Animal sound",
+    "id": 54
+  },
+  {
+    "difficulty": "medium",
+    "question": "class Animal { void makeSound() { System.out.println(\"Some sound\"); }}\nclass Cat extends Animal { void makeSound() { System.out.println(\"Meow\"); }}\npublic class Main { public static void main(String[] args) { Animal a = new Cat(); a.makeSound(); }}",
+    "choices": [
+      "Meow",
+      "Some sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Meow",
+    "id": 55
+  },
+  {
+    "difficulty": "medium",
+    "question": "abstract class Shape { abstract void draw(); }\nclass Circle extends Shape { void draw() { System.out.println(\"Drawing Circle\"); }}",
+    "choices": [
+      "Berhasil",
+      "Error",
+      "Menampilkan \u201cDrawing Circle\u201d",
+      "Tidak ada output"
+    ],
+    "answer": "Error",
+    "id": 56
+  },
+  {
+    "difficulty": "medium",
+    "question": "interface Flyable { void fly(); }\nclass Bird implements Flyable { public void fly() { System.out.println(\"Bird is flying\"); }}",
+    "choices": [
+      "Tidak apa-apa",
+      "Program tetap jalan",
+      "Error kompilasi",
+      "Error runtime"
+    ],
+    "answer": "Error kompilasi",
+    "id": 57
+  },
+  {
+    "difficulty": "medium",
+    "question": "class Parent { void show() { System.out.println(\"Parent\"); }}\nclass Child extends Parent { void show() { System.out.println(\"Child\"); }}\npublic class Main { public static void main(String[] args) { Parent p = new Child(); p.show(); }}",
+    "choices": [
+      "Parent",
+      "Child",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Child",
+    "id": 58
+  },
+  {
+    "difficulty": "medium",
+    "question": "class MathUtil { static int square(int x) { return x * x; }}\nSystem.out.println(MathUtil.square(5));",
+    "choices": [
+      "10",
+      "25",
+      "5",
+      "Error"
+    ],
+    "answer": "25",
+    "id": 59
+  },
+  {
+    "difficulty": "medium",
+    "question": "class Calculator { int add(int a, int b) { return a + b; }\ndouble add(double a, double b) { return a + b; }}\nSystem.out.println(new Calculator().add(2.0, 3.0));",
+    "choices": [
+      "Error",
+      "5.0",
+      "2.0",
+      "5"
+    ],
+    "answer": "5.0",
+    "id": 60
+  },
+  {
+    "difficulty": "hard",
+    "question": "int a = 5, b = 3;\nSystem.out.println(a + b);",
+    "choices": [
+      "5",
+      "8",
+      "53",
+      "Error"
+    ],
+    "answer": "8",
+    "id": 61
+  },
+  {
+    "difficulty": "hard",
+    "question": "String name = \"Java\";\nSystem.out.println(name.length());",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "Error"
+    ],
+    "answer": "4",
+    "id": 62
+  },
+  {
+    "difficulty": "hard",
+    "question": "int x = 10;\nx++;\nSystem.out.println(x);",
+    "choices": [
+      "10",
+      "11",
+      "9",
+      "Error"
+    ],
+    "answer": "11",
+    "id": 63
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Animal { void sound() { System.out.println(\"Animal sound\"); }}\nclass Dog extends Animal { void bark() { System.out.println(\"Woof\"); }}\npublic class Main { public static void main(String[] args) { Dog d = new Dog(); d.sound(); }}",
+    "choices": [
+      "Woof",
+      "Animal sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Animal sound",
+    "id": 64
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Animal { void makeSound() { System.out.println(\"Some sound\"); }}\nclass Cat extends Animal { void makeSound() { System.out.println(\"Meow\"); }}\npublic class Main { public static void main(String[] args) { Animal a = new Cat(); a.makeSound(); }}",
+    "choices": [
+      "Meow",
+      "Some sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Meow",
+    "id": 65
+  },
+  {
+    "difficulty": "hard",
+    "question": "abstract class Shape { abstract void draw(); }\nclass Circle extends Shape { void draw() { System.out.println(\"Drawing Circle\"); }}",
+    "choices": [
+      "Berhasil",
+      "Error",
+      "Menampilkan \u201cDrawing Circle\u201d",
+      "Tidak ada output"
+    ],
+    "answer": "Error",
+    "id": 66
+  },
+  {
+    "difficulty": "hard",
+    "question": "interface Flyable { void fly(); }\nclass Bird implements Flyable { public void fly() { System.out.println(\"Bird is flying\"); }}",
+    "choices": [
+      "Tidak apa-apa",
+      "Program tetap jalan",
+      "Error kompilasi",
+      "Error runtime"
+    ],
+    "answer": "Error kompilasi",
+    "id": 67
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Parent { void show() { System.out.println(\"Parent\"); }}\nclass Child extends Parent { void show() { System.out.println(\"Child\"); }}\npublic class Main { public static void main(String[] args) { Parent p = new Child(); p.show(); }}",
+    "choices": [
+      "Parent",
+      "Child",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Child",
+    "id": 68
+  },
+  {
+    "difficulty": "hard",
+    "question": "class MathUtil { static int square(int x) { return x * x; }}\nSystem.out.println(MathUtil.square(5));",
+    "choices": [
+      "10",
+      "25",
+      "5",
+      "Error"
+    ],
+    "answer": "25",
+    "id": 69
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Calculator { int add(int a, int b) { return a + b; }\ndouble add(double a, double b) { return a + b; }}\nSystem.out.println(new Calculator().add(2.0, 3.0));",
+    "choices": [
+      "Error",
+      "5.0",
+      "2.0",
+      "5"
+    ],
+    "answer": "5.0",
+    "id": 70
+  },
+  {
+    "difficulty": "hard",
+    "question": "int a = 5, b = 3;\nSystem.out.println(a + b);",
+    "choices": [
+      "5",
+      "8",
+      "53",
+      "Error"
+    ],
+    "answer": "8",
+    "id": 71
+  },
+  {
+    "difficulty": "hard",
+    "question": "String name = \"Java\";\nSystem.out.println(name.length());",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "Error"
+    ],
+    "answer": "4",
+    "id": 72
+  },
+  {
+    "difficulty": "hard",
+    "question": "int x = 10;\nx++;\nSystem.out.println(x);",
+    "choices": [
+      "10",
+      "11",
+      "9",
+      "Error"
+    ],
+    "answer": "11",
+    "id": 73
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Animal { void sound() { System.out.println(\"Animal sound\"); }}\nclass Dog extends Animal { void bark() { System.out.println(\"Woof\"); }}\npublic class Main { public static void main(String[] args) { Dog d = new Dog(); d.sound(); }}",
+    "choices": [
+      "Woof",
+      "Animal sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Animal sound",
+    "id": 74
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Animal { void makeSound() { System.out.println(\"Some sound\"); }}\nclass Cat extends Animal { void makeSound() { System.out.println(\"Meow\"); }}\npublic class Main { public static void main(String[] args) { Animal a = new Cat(); a.makeSound(); }}",
+    "choices": [
+      "Meow",
+      "Some sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Meow",
+    "id": 75
+  },
+  {
+    "difficulty": "hard",
+    "question": "abstract class Shape { abstract void draw(); }\nclass Circle extends Shape { void draw() { System.out.println(\"Drawing Circle\"); }}",
+    "choices": [
+      "Berhasil",
+      "Error",
+      "Menampilkan \u201cDrawing Circle\u201d",
+      "Tidak ada output"
+    ],
+    "answer": "Error",
+    "id": 76
+  },
+  {
+    "difficulty": "hard",
+    "question": "interface Flyable { void fly(); }\nclass Bird implements Flyable { public void fly() { System.out.println(\"Bird is flying\"); }}",
+    "choices": [
+      "Tidak apa-apa",
+      "Program tetap jalan",
+      "Error kompilasi",
+      "Error runtime"
+    ],
+    "answer": "Error kompilasi",
+    "id": 77
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Parent { void show() { System.out.println(\"Parent\"); }}\nclass Child extends Parent { void show() { System.out.println(\"Child\"); }}\npublic class Main { public static void main(String[] args) { Parent p = new Child(); p.show(); }}",
+    "choices": [
+      "Parent",
+      "Child",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Child",
+    "id": 78
+  },
+  {
+    "difficulty": "hard",
+    "question": "class MathUtil { static int square(int x) { return x * x; }}\nSystem.out.println(MathUtil.square(5));",
+    "choices": [
+      "10",
+      "25",
+      "5",
+      "Error"
+    ],
+    "answer": "25",
+    "id": 79
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Calculator { int add(int a, int b) { return a + b; }\ndouble add(double a, double b) { return a + b; }}\nSystem.out.println(new Calculator().add(2.0, 3.0));",
+    "choices": [
+      "Error",
+      "5.0",
+      "2.0",
+      "5"
+    ],
+    "answer": "5.0",
+    "id": 80
+  },
+  {
+    "difficulty": "hard",
+    "question": "int a = 5, b = 3;\nSystem.out.println(a + b);",
+    "choices": [
+      "5",
+      "8",
+      "53",
+      "Error"
+    ],
+    "answer": "8",
+    "id": 81
+  },
+  {
+    "difficulty": "hard",
+    "question": "String name = \"Java\";\nSystem.out.println(name.length());",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "Error"
+    ],
+    "answer": "4",
+    "id": 82
+  },
+  {
+    "difficulty": "hard",
+    "question": "int x = 10;\nx++;\nSystem.out.println(x);",
+    "choices": [
+      "10",
+      "11",
+      "9",
+      "Error"
+    ],
+    "answer": "11",
+    "id": 83
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Animal { void sound() { System.out.println(\"Animal sound\"); }}\nclass Dog extends Animal { void bark() { System.out.println(\"Woof\"); }}\npublic class Main { public static void main(String[] args) { Dog d = new Dog(); d.sound(); }}",
+    "choices": [
+      "Woof",
+      "Animal sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Animal sound",
+    "id": 84
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Animal { void makeSound() { System.out.println(\"Some sound\"); }}\nclass Cat extends Animal { void makeSound() { System.out.println(\"Meow\"); }}\npublic class Main { public static void main(String[] args) { Animal a = new Cat(); a.makeSound(); }}",
+    "choices": [
+      "Meow",
+      "Some sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Meow",
+    "id": 85
+  },
+  {
+    "difficulty": "hard",
+    "question": "abstract class Shape { abstract void draw(); }\nclass Circle extends Shape { void draw() { System.out.println(\"Drawing Circle\"); }}",
+    "choices": [
+      "Berhasil",
+      "Error",
+      "Menampilkan \u201cDrawing Circle\u201d",
+      "Tidak ada output"
+    ],
+    "answer": "Error",
+    "id": 86
+  },
+  {
+    "difficulty": "hard",
+    "question": "interface Flyable { void fly(); }\nclass Bird implements Flyable { public void fly() { System.out.println(\"Bird is flying\"); }}",
+    "choices": [
+      "Tidak apa-apa",
+      "Program tetap jalan",
+      "Error kompilasi",
+      "Error runtime"
+    ],
+    "answer": "Error kompilasi",
+    "id": 87
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Parent { void show() { System.out.println(\"Parent\"); }}\nclass Child extends Parent { void show() { System.out.println(\"Child\"); }}\npublic class Main { public static void main(String[] args) { Parent p = new Child(); p.show(); }}",
+    "choices": [
+      "Parent",
+      "Child",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Child",
+    "id": 88
+  },
+  {
+    "difficulty": "hard",
+    "question": "class MathUtil { static int square(int x) { return x * x; }}\nSystem.out.println(MathUtil.square(5));",
+    "choices": [
+      "10",
+      "25",
+      "5",
+      "Error"
+    ],
+    "answer": "25",
+    "id": 89
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Calculator { int add(int a, int b) { return a + b; }\ndouble add(double a, double b) { return a + b; }}\nSystem.out.println(new Calculator().add(2.0, 3.0));",
+    "choices": [
+      "Error",
+      "5.0",
+      "2.0",
+      "5"
+    ],
+    "answer": "5.0",
+    "id": 90
+  },
+  {
+    "difficulty": "hard",
+    "question": "int a = 5, b = 3;\nSystem.out.println(a + b);",
+    "choices": [
+      "5",
+      "8",
+      "53",
+      "Error"
+    ],
+    "answer": "8",
+    "id": 91
+  },
+  {
+    "difficulty": "hard",
+    "question": "String name = \"Java\";\nSystem.out.println(name.length());",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "Error"
+    ],
+    "answer": "4",
+    "id": 92
+  },
+  {
+    "difficulty": "hard",
+    "question": "int x = 10;\nx++;\nSystem.out.println(x);",
+    "choices": [
+      "10",
+      "11",
+      "9",
+      "Error"
+    ],
+    "answer": "11",
+    "id": 93
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Animal { void sound() { System.out.println(\"Animal sound\"); }}\nclass Dog extends Animal { void bark() { System.out.println(\"Woof\"); }}\npublic class Main { public static void main(String[] args) { Dog d = new Dog(); d.sound(); }}",
+    "choices": [
+      "Woof",
+      "Animal sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Animal sound",
+    "id": 94
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Animal { void makeSound() { System.out.println(\"Some sound\"); }}\nclass Cat extends Animal { void makeSound() { System.out.println(\"Meow\"); }}\npublic class Main { public static void main(String[] args) { Animal a = new Cat(); a.makeSound(); }}",
+    "choices": [
+      "Meow",
+      "Some sound",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Meow",
+    "id": 95
+  },
+  {
+    "difficulty": "hard",
+    "question": "abstract class Shape { abstract void draw(); }\nclass Circle extends Shape { void draw() { System.out.println(\"Drawing Circle\"); }}",
+    "choices": [
+      "Berhasil",
+      "Error",
+      "Menampilkan \u201cDrawing Circle\u201d",
+      "Tidak ada output"
+    ],
+    "answer": "Error",
+    "id": 96
+  },
+  {
+    "difficulty": "hard",
+    "question": "interface Flyable { void fly(); }\nclass Bird implements Flyable { public void fly() { System.out.println(\"Bird is flying\"); }}",
+    "choices": [
+      "Tidak apa-apa",
+      "Program tetap jalan",
+      "Error kompilasi",
+      "Error runtime"
+    ],
+    "answer": "Error kompilasi",
+    "id": 97
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Parent { void show() { System.out.println(\"Parent\"); }}\nclass Child extends Parent { void show() { System.out.println(\"Child\"); }}\npublic class Main { public static void main(String[] args) { Parent p = new Child(); p.show(); }}",
+    "choices": [
+      "Parent",
+      "Child",
+      "Error",
+      "Tidak ada output"
+    ],
+    "answer": "Child",
+    "id": 98
+  },
+  {
+    "difficulty": "hard",
+    "question": "class MathUtil { static int square(int x) { return x * x; }}\nSystem.out.println(MathUtil.square(5));",
+    "choices": [
+      "10",
+      "25",
+      "5",
+      "Error"
+    ],
+    "answer": "25",
+    "id": 99
+  },
+  {
+    "difficulty": "hard",
+    "question": "class Calculator { int add(int a, int b) { return a + b; }\ndouble add(double a, double b) { return a + b; }}\nSystem.out.println(new Calculator().add(2.0, 3.0));",
+    "choices": [
+      "Error",
+      "5.0",
+      "2.0",
+      "5"
+    ],
+    "answer": "5.0",
+    "id": 100
+  },
+  {
+    "id": 101,
+    "difficulty": "professional",
+    "question": "// Topic: Exception Handling\ntry {\n  int x = 5 / 0;\n} catch(ArithmeticException e) {\n  System.out.println(\"Error\");\n}",
+    "choices": [
+      "Error",
+      "0",
+      "Exception",
+      "5"
+    ],
+    "answer": "Error"
+  },
+  {
+    "id": 102,
+    "difficulty": "professional",
+    "question": "// Topic: Multithreading\nclass MyThread extends Thread {\n  public void run() {\n    System.out.println(\"Running\");\n  }\n}\nnew MyThread().start();",
+    "choices": [
+      "Running",
+      "Error",
+      "Compilation failed",
+      "Nothing"
+    ],
+    "answer": "Running"
+  },
+  {
+    "id": 103,
+    "difficulty": "professional",
+    "question": "// Topic: Collections\nMap<String, Integer> map = new HashMap<>();\nmap.put(\"A\", 1);\nSystem.out.println(map.get(\"A\"));",
+    "choices": [
+      "1",
+      "A",
+      "null",
+      "Error"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 104,
+    "difficulty": "professional",
+    "question": "// Topic: Streams API\nList<Integer> nums = Arrays.asList(1,2,3,4);\nnums.stream().filter(n -> n % 2 == 0).forEach(System.out::print);",
+    "choices": [
+      "24",
+      "13",
+      "1234",
+      "Error"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": 105,
+    "difficulty": "professional",
+    "question": "// Topic: Lambda Expressions\nList<String> list = Arrays.asList(\"A\", \"B\");\nlist.forEach(s -> System.out.print(s));",
+    "choices": [
+      "AB",
+      "BA",
+      "Error",
+      "Nothing"
+    ],
+    "answer": "AB"
+  },
+  {
+    "id": 106,
+    "difficulty": "professional",
+    "question": "// Topic: File I/O\ntry (BufferedReader br = new BufferedReader(new FileReader(\"file.txt\"))) {\n  System.out.println(br.readLine());\n}",
+    "choices": [
+      "Prints line",
+      "Error",
+      "Exception",
+      "file.txt"
+    ],
+    "answer": "Prints line"
+  },
+  {
+    "id": 107,
+    "difficulty": "professional",
+    "question": "// Topic: Generics\nclass Box<T> {\n  T val;\n  void set(T val) { this.val = val; }\n  T get() { return val; }\n}",
+    "choices": [
+      "Generic class",
+      "Error",
+      "No output",
+      "T"
+    ],
+    "answer": "Generic class"
+  },
+  {
+    "id": 108,
+    "difficulty": "professional",
+    "question": "// Topic: Annotations\nclass Parent { void show() {} }\nclass Child extends Parent {@Override void show() {}}",
+    "choices": [
+      "Valid",
+      "Invalid",
+      "Error",
+      "Warning"
+    ],
+    "answer": "Valid"
+  },
+  {
+    "id": 109,
+    "difficulty": "professional",
+    "question": "// Topic: Serialization\nclass Person implements Serializable {\n  String name;\n}",
+    "choices": [
+      "Can be saved to file",
+      "Error",
+      "Exception",
+      "name"
+    ],
+    "answer": "Can be saved to file"
+  },
+  {
+    "id": 110,
+    "difficulty": "professional",
+    "question": "// Topic: JDBC\nConnection con = DriverManager.getConnection(url, user, pass);",
+    "choices": [
+      "Open DB",
+      "Error",
+      "Connect fail",
+      "Warning"
+    ],
+    "answer": "Open DB"
+  },
+  {
+    "id": 111,
+    "difficulty": "professional",
+    "question": "// Topic: Exception Handling\ntry {\n  int x = 5 / 0;\n} catch(ArithmeticException e) {\n  System.out.println(\"Error\");\n}",
+    "choices": [
+      "Error",
+      "0",
+      "Exception",
+      "5"
+    ],
+    "answer": "Error"
+  },
+  {
+    "id": 112,
+    "difficulty": "professional",
+    "question": "// Topic: Multithreading\nclass MyThread extends Thread {\n  public void run() {\n    System.out.println(\"Running\");\n  }\n}\nnew MyThread().start();",
+    "choices": [
+      "Running",
+      "Error",
+      "Compilation failed",
+      "Nothing"
+    ],
+    "answer": "Running"
+  },
+  {
+    "id": 113,
+    "difficulty": "professional",
+    "question": "// Topic: Collections\nMap<String, Integer> map = new HashMap<>();\nmap.put(\"A\", 1);\nSystem.out.println(map.get(\"A\"));",
+    "choices": [
+      "1",
+      "A",
+      "null",
+      "Error"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 114,
+    "difficulty": "professional",
+    "question": "// Topic: Streams API\nList<Integer> nums = Arrays.asList(1,2,3,4);\nnums.stream().filter(n -> n % 2 == 0).forEach(System.out::print);",
+    "choices": [
+      "24",
+      "13",
+      "1234",
+      "Error"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": 115,
+    "difficulty": "professional",
+    "question": "// Topic: Lambda Expressions\nList<String> list = Arrays.asList(\"A\", \"B\");\nlist.forEach(s -> System.out.print(s));",
+    "choices": [
+      "AB",
+      "BA",
+      "Error",
+      "Nothing"
+    ],
+    "answer": "AB"
+  },
+  {
+    "id": 116,
+    "difficulty": "professional",
+    "question": "// Topic: File I/O\ntry (BufferedReader br = new BufferedReader(new FileReader(\"file.txt\"))) {\n  System.out.println(br.readLine());\n}",
+    "choices": [
+      "Prints line",
+      "Error",
+      "Exception",
+      "file.txt"
+    ],
+    "answer": "Prints line"
+  },
+  {
+    "id": 117,
+    "difficulty": "professional",
+    "question": "// Topic: Generics\nclass Box<T> {\n  T val;\n  void set(T val) { this.val = val; }\n  T get() { return val; }\n}",
+    "choices": [
+      "Generic class",
+      "Error",
+      "No output",
+      "T"
+    ],
+    "answer": "Generic class"
+  },
+  {
+    "id": 118,
+    "difficulty": "professional",
+    "question": "// Topic: Annotations\nclass Parent { void show() {} }\nclass Child extends Parent {@Override void show() {}}",
+    "choices": [
+      "Valid",
+      "Invalid",
+      "Error",
+      "Warning"
+    ],
+    "answer": "Valid"
+  },
+  {
+    "id": 119,
+    "difficulty": "professional",
+    "question": "// Topic: Serialization\nclass Person implements Serializable {\n  String name;\n}",
+    "choices": [
+      "Can be saved to file",
+      "Error",
+      "Exception",
+      "name"
+    ],
+    "answer": "Can be saved to file"
+  },
+  {
+    "id": 120,
+    "difficulty": "professional",
+    "question": "// Topic: JDBC\nConnection con = DriverManager.getConnection(url, user, pass);",
+    "choices": [
+      "Open DB",
+      "Error",
+      "Connect fail",
+      "Warning"
+    ],
+    "answer": "Open DB"
+  },
+  {
+    "id": 121,
+    "difficulty": "professional",
+    "question": "// Topic: Exception Handling\ntry {\n  int x = 5 / 0;\n} catch(ArithmeticException e) {\n  System.out.println(\"Error\");\n}",
+    "choices": [
+      "Error",
+      "0",
+      "Exception",
+      "5"
+    ],
+    "answer": "Error"
+  },
+  {
+    "id": 122,
+    "difficulty": "professional",
+    "question": "// Topic: Multithreading\nclass MyThread extends Thread {\n  public void run() {\n    System.out.println(\"Running\");\n  }\n}\nnew MyThread().start();",
+    "choices": [
+      "Running",
+      "Error",
+      "Compilation failed",
+      "Nothing"
+    ],
+    "answer": "Running"
+  },
+  {
+    "id": 123,
+    "difficulty": "professional",
+    "question": "// Topic: Collections\nMap<String, Integer> map = new HashMap<>();\nmap.put(\"A\", 1);\nSystem.out.println(map.get(\"A\"));",
+    "choices": [
+      "1",
+      "A",
+      "null",
+      "Error"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 124,
+    "difficulty": "professional",
+    "question": "// Topic: Streams API\nList<Integer> nums = Arrays.asList(1,2,3,4);\nnums.stream().filter(n -> n % 2 == 0).forEach(System.out::print);",
+    "choices": [
+      "24",
+      "13",
+      "1234",
+      "Error"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": 125,
+    "difficulty": "professional",
+    "question": "// Topic: Lambda Expressions\nList<String> list = Arrays.asList(\"A\", \"B\");\nlist.forEach(s -> System.out.print(s));",
+    "choices": [
+      "AB",
+      "BA",
+      "Error",
+      "Nothing"
+    ],
+    "answer": "AB"
+  },
+  {
+    "id": 126,
+    "difficulty": "professional",
+    "question": "// Topic: File I/O\ntry (BufferedReader br = new BufferedReader(new FileReader(\"file.txt\"))) {\n  System.out.println(br.readLine());\n}",
+    "choices": [
+      "Prints line",
+      "Error",
+      "Exception",
+      "file.txt"
+    ],
+    "answer": "Prints line"
+  },
+  {
+    "id": 127,
+    "difficulty": "professional",
+    "question": "// Topic: Generics\nclass Box<T> {\n  T val;\n  void set(T val) { this.val = val; }\n  T get() { return val; }\n}",
+    "choices": [
+      "Generic class",
+      "Error",
+      "No output",
+      "T"
+    ],
+    "answer": "Generic class"
+  },
+  {
+    "id": 128,
+    "difficulty": "professional",
+    "question": "// Topic: Annotations\nclass Parent { void show() {} }\nclass Child extends Parent {@Override void show() {}}",
+    "choices": [
+      "Valid",
+      "Invalid",
+      "Error",
+      "Warning"
+    ],
+    "answer": "Valid"
+  },
+  {
+    "id": 129,
+    "difficulty": "professional",
+    "question": "// Topic: Serialization\nclass Person implements Serializable {\n  String name;\n}",
+    "choices": [
+      "Can be saved to file",
+      "Error",
+      "Exception",
+      "name"
+    ],
+    "answer": "Can be saved to file"
+  },
+  {
+    "id": 130,
+    "difficulty": "professional",
+    "question": "// Topic: JDBC\nConnection con = DriverManager.getConnection(url, user, pass);",
+    "choices": [
+      "Open DB",
+      "Error",
+      "Connect fail",
+      "Warning"
+    ],
+    "answer": "Open DB"
+  },
+  {
+    "id": 131,
+    "difficulty": "professional",
+    "question": "// Topic: Exception Handling\ntry {\n  int x = 5 / 0;\n} catch(ArithmeticException e) {\n  System.out.println(\"Error\");\n}",
+    "choices": [
+      "Error",
+      "0",
+      "Exception",
+      "5"
+    ],
+    "answer": "Error"
+  },
+  {
+    "id": 132,
+    "difficulty": "professional",
+    "question": "// Topic: Multithreading\nclass MyThread extends Thread {\n  public void run() {\n    System.out.println(\"Running\");\n  }\n}\nnew MyThread().start();",
+    "choices": [
+      "Running",
+      "Error",
+      "Compilation failed",
+      "Nothing"
+    ],
+    "answer": "Running"
+  },
+  {
+    "id": 133,
+    "difficulty": "professional",
+    "question": "// Topic: Collections\nMap<String, Integer> map = new HashMap<>();\nmap.put(\"A\", 1);\nSystem.out.println(map.get(\"A\"));",
+    "choices": [
+      "1",
+      "A",
+      "null",
+      "Error"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 134,
+    "difficulty": "professional",
+    "question": "// Topic: Streams API\nList<Integer> nums = Arrays.asList(1,2,3,4);\nnums.stream().filter(n -> n % 2 == 0).forEach(System.out::print);",
+    "choices": [
+      "24",
+      "13",
+      "1234",
+      "Error"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": 135,
+    "difficulty": "professional",
+    "question": "// Topic: Lambda Expressions\nList<String> list = Arrays.asList(\"A\", \"B\");\nlist.forEach(s -> System.out.print(s));",
+    "choices": [
+      "AB",
+      "BA",
+      "Error",
+      "Nothing"
+    ],
+    "answer": "AB"
+  },
+  {
+    "id": 136,
+    "difficulty": "professional",
+    "question": "// Topic: File I/O\ntry (BufferedReader br = new BufferedReader(new FileReader(\"file.txt\"))) {\n  System.out.println(br.readLine());\n}",
+    "choices": [
+      "Prints line",
+      "Error",
+      "Exception",
+      "file.txt"
+    ],
+    "answer": "Prints line"
+  },
+  {
+    "id": 137,
+    "difficulty": "professional",
+    "question": "// Topic: Generics\nclass Box<T> {\n  T val;\n  void set(T val) { this.val = val; }\n  T get() { return val; }\n}",
+    "choices": [
+      "Generic class",
+      "Error",
+      "No output",
+      "T"
+    ],
+    "answer": "Generic class"
+  },
+  {
+    "id": 138,
+    "difficulty": "professional",
+    "question": "// Topic: Annotations\nclass Parent { void show() {} }\nclass Child extends Parent {@Override void show() {}}",
+    "choices": [
+      "Valid",
+      "Invalid",
+      "Error",
+      "Warning"
+    ],
+    "answer": "Valid"
+  },
+  {
+    "id": 139,
+    "difficulty": "professional",
+    "question": "// Topic: Serialization\nclass Person implements Serializable {\n  String name;\n}",
+    "choices": [
+      "Can be saved to file",
+      "Error",
+      "Exception",
+      "name"
+    ],
+    "answer": "Can be saved to file"
+  },
+  {
+    "id": 140,
+    "difficulty": "professional",
+    "question": "// Topic: JDBC\nConnection con = DriverManager.getConnection(url, user, pass);",
+    "choices": [
+      "Open DB",
+      "Error",
+      "Connect fail",
+      "Warning"
+    ],
+    "answer": "Open DB"
+  },
+  {
+    "id": 141,
+    "difficulty": "professional",
+    "question": "// Topic: Exception Handling\ntry {\n  int x = 5 / 0;\n} catch(ArithmeticException e) {\n  System.out.println(\"Error\");\n}",
+    "choices": [
+      "Error",
+      "0",
+      "Exception",
+      "5"
+    ],
+    "answer": "Error"
+  },
+  {
+    "id": 142,
+    "difficulty": "professional",
+    "question": "// Topic: Multithreading\nclass MyThread extends Thread {\n  public void run() {\n    System.out.println(\"Running\");\n  }\n}\nnew MyThread().start();",
+    "choices": [
+      "Running",
+      "Error",
+      "Compilation failed",
+      "Nothing"
+    ],
+    "answer": "Running"
+  },
+  {
+    "id": 143,
+    "difficulty": "professional",
+    "question": "// Topic: Collections\nMap<String, Integer> map = new HashMap<>();\nmap.put(\"A\", 1);\nSystem.out.println(map.get(\"A\"));",
+    "choices": [
+      "1",
+      "A",
+      "null",
+      "Error"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 144,
+    "difficulty": "professional",
+    "question": "// Topic: Streams API\nList<Integer> nums = Arrays.asList(1,2,3,4);\nnums.stream().filter(n -> n % 2 == 0).forEach(System.out::print);",
+    "choices": [
+      "24",
+      "13",
+      "1234",
+      "Error"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": 145,
+    "difficulty": "professional",
+    "question": "// Topic: Lambda Expressions\nList<String> list = Arrays.asList(\"A\", \"B\");\nlist.forEach(s -> System.out.print(s));",
+    "choices": [
+      "AB",
+      "BA",
+      "Error",
+      "Nothing"
+    ],
+    "answer": "AB"
+  },
+  {
+    "id": 146,
+    "difficulty": "professional",
+    "question": "// Topic: File I/O\ntry (BufferedReader br = new BufferedReader(new FileReader(\"file.txt\"))) {\n  System.out.println(br.readLine());\n}",
+    "choices": [
+      "Prints line",
+      "Error",
+      "Exception",
+      "file.txt"
+    ],
+    "answer": "Prints line"
+  },
+  {
+    "id": 147,
+    "difficulty": "professional",
+    "question": "// Topic: Generics\nclass Box<T> {\n  T val;\n  void set(T val) { this.val = val; }\n  T get() { return val; }\n}",
+    "choices": [
+      "Generic class",
+      "Error",
+      "No output",
+      "T"
+    ],
+    "answer": "Generic class"
+  },
+  {
+    "id": 148,
+    "difficulty": "professional",
+    "question": "// Topic: Annotations\nclass Parent { void show() {} }\nclass Child extends Parent {@Override void show() {}}",
+    "choices": [
+      "Valid",
+      "Invalid",
+      "Error",
+      "Warning"
+    ],
+    "answer": "Valid"
+  },
+  {
+    "id": 149,
+    "difficulty": "professional",
+    "question": "// Topic: Serialization\nclass Person implements Serializable {\n  String name;\n}",
+    "choices": [
+      "Can be saved to file",
+      "Error",
+      "Exception",
+      "name"
+    ],
+    "answer": "Can be saved to file"
+  },
+  {
+    "id": 150,
+    "difficulty": "professional",
+    "question": "// Topic: JDBC\nConnection con = DriverManager.getConnection(url, user, pass);",
+    "choices": [
+      "Open DB",
+      "Error",
+      "Connect fail",
+      "Warning"
+    ],
+    "answer": "Open DB"
+  },
+  {
+    "id": 151,
+    "difficulty": "professional",
+    "question": "// Topic: Exception Handling\ntry {\n  int x = 5 / 0;\n} catch(ArithmeticException e) {\n  System.out.println(\"Error\");\n}",
+    "choices": [
+      "Error",
+      "0",
+      "Exception",
+      "5"
+    ],
+    "answer": "Error"
+  },
+  {
+    "id": 152,
+    "difficulty": "professional",
+    "question": "// Topic: Multithreading\nclass MyThread extends Thread {\n  public void run() {\n    System.out.println(\"Running\");\n  }\n}\nnew MyThread().start();",
+    "choices": [
+      "Running",
+      "Error",
+      "Compilation failed",
+      "Nothing"
+    ],
+    "answer": "Running"
+  },
+  {
+    "id": 153,
+    "difficulty": "professional",
+    "question": "// Topic: Collections\nMap<String, Integer> map = new HashMap<>();\nmap.put(\"A\", 1);\nSystem.out.println(map.get(\"A\"));",
+    "choices": [
+      "1",
+      "A",
+      "null",
+      "Error"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 154,
+    "difficulty": "professional",
+    "question": "// Topic: Streams API\nList<Integer> nums = Arrays.asList(1,2,3,4);\nnums.stream().filter(n -> n % 2 == 0).forEach(System.out::print);",
+    "choices": [
+      "24",
+      "13",
+      "1234",
+      "Error"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": 155,
+    "difficulty": "professional",
+    "question": "// Topic: Lambda Expressions\nList<String> list = Arrays.asList(\"A\", \"B\");\nlist.forEach(s -> System.out.print(s));",
+    "choices": [
+      "AB",
+      "BA",
+      "Error",
+      "Nothing"
+    ],
+    "answer": "AB"
+  },
+  {
+    "id": 156,
+    "difficulty": "professional",
+    "question": "// Topic: File I/O\ntry (BufferedReader br = new BufferedReader(new FileReader(\"file.txt\"))) {\n  System.out.println(br.readLine());\n}",
+    "choices": [
+      "Prints line",
+      "Error",
+      "Exception",
+      "file.txt"
+    ],
+    "answer": "Prints line"
+  },
+  {
+    "id": 157,
+    "difficulty": "professional",
+    "question": "// Topic: Generics\nclass Box<T> {\n  T val;\n  void set(T val) { this.val = val; }\n  T get() { return val; }\n}",
+    "choices": [
+      "Generic class",
+      "Error",
+      "No output",
+      "T"
+    ],
+    "answer": "Generic class"
+  },
+  {
+    "id": 158,
+    "difficulty": "professional",
+    "question": "// Topic: Annotations\nclass Parent { void show() {} }\nclass Child extends Parent {@Override void show() {}}",
+    "choices": [
+      "Valid",
+      "Invalid",
+      "Error",
+      "Warning"
+    ],
+    "answer": "Valid"
+  },
+  {
+    "id": 159,
+    "difficulty": "professional",
+    "question": "// Topic: Serialization\nclass Person implements Serializable {\n  String name;\n}",
+    "choices": [
+      "Can be saved to file",
+      "Error",
+      "Exception",
+      "name"
+    ],
+    "answer": "Can be saved to file"
+  },
+  {
+    "id": 160,
+    "difficulty": "professional",
+    "question": "// Topic: JDBC\nConnection con = DriverManager.getConnection(url, user, pass);",
+    "choices": [
+      "Open DB",
+      "Error",
+      "Connect fail",
+      "Warning"
+    ],
+    "answer": "Open DB"
+  },
+  {
+    "id": 161,
+    "difficulty": "professional",
+    "question": "// Topic: Exception Handling\ntry {\n  int x = 5 / 0;\n} catch(ArithmeticException e) {\n  System.out.println(\"Error\");\n}",
+    "choices": [
+      "Error",
+      "0",
+      "Exception",
+      "5"
+    ],
+    "answer": "Error"
+  },
+  {
+    "id": 162,
+    "difficulty": "professional",
+    "question": "// Topic: Multithreading\nclass MyThread extends Thread {\n  public void run() {\n    System.out.println(\"Running\");\n  }\n}\nnew MyThread().start();",
+    "choices": [
+      "Running",
+      "Error",
+      "Compilation failed",
+      "Nothing"
+    ],
+    "answer": "Running"
+  },
+  {
+    "id": 163,
+    "difficulty": "professional",
+    "question": "// Topic: Collections\nMap<String, Integer> map = new HashMap<>();\nmap.put(\"A\", 1);\nSystem.out.println(map.get(\"A\"));",
+    "choices": [
+      "1",
+      "A",
+      "null",
+      "Error"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 164,
+    "difficulty": "professional",
+    "question": "// Topic: Streams API\nList<Integer> nums = Arrays.asList(1,2,3,4);\nnums.stream().filter(n -> n % 2 == 0).forEach(System.out::print);",
+    "choices": [
+      "24",
+      "13",
+      "1234",
+      "Error"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": 165,
+    "difficulty": "professional",
+    "question": "// Topic: Lambda Expressions\nList<String> list = Arrays.asList(\"A\", \"B\");\nlist.forEach(s -> System.out.print(s));",
+    "choices": [
+      "AB",
+      "BA",
+      "Error",
+      "Nothing"
+    ],
+    "answer": "AB"
+  },
+  {
+    "id": 166,
+    "difficulty": "professional",
+    "question": "// Topic: File I/O\ntry (BufferedReader br = new BufferedReader(new FileReader(\"file.txt\"))) {\n  System.out.println(br.readLine());\n}",
+    "choices": [
+      "Prints line",
+      "Error",
+      "Exception",
+      "file.txt"
+    ],
+    "answer": "Prints line"
+  },
+  {
+    "id": 167,
+    "difficulty": "professional",
+    "question": "// Topic: Generics\nclass Box<T> {\n  T val;\n  void set(T val) { this.val = val; }\n  T get() { return val; }\n}",
+    "choices": [
+      "Generic class",
+      "Error",
+      "No output",
+      "T"
+    ],
+    "answer": "Generic class"
+  },
+  {
+    "id": 168,
+    "difficulty": "professional",
+    "question": "// Topic: Annotations\nclass Parent { void show() {} }\nclass Child extends Parent {@Override void show() {}}",
+    "choices": [
+      "Valid",
+      "Invalid",
+      "Error",
+      "Warning"
+    ],
+    "answer": "Valid"
+  },
+  {
+    "id": 169,
+    "difficulty": "professional",
+    "question": "// Topic: Serialization\nclass Person implements Serializable {\n  String name;\n}",
+    "choices": [
+      "Can be saved to file",
+      "Error",
+      "Exception",
+      "name"
+    ],
+    "answer": "Can be saved to file"
+  },
+  {
+    "id": 170,
+    "difficulty": "professional",
+    "question": "// Topic: JDBC\nConnection con = DriverManager.getConnection(url, user, pass);",
+    "choices": [
+      "Open DB",
+      "Error",
+      "Connect fail",
+      "Warning"
+    ],
+    "answer": "Open DB"
+  },
+  {
+    "id": 171,
+    "difficulty": "professional",
+    "question": "// Topic: Exception Handling\ntry {\n  int x = 5 / 0;\n} catch(ArithmeticException e) {\n  System.out.println(\"Error\");\n}",
+    "choices": [
+      "Error",
+      "0",
+      "Exception",
+      "5"
+    ],
+    "answer": "Error"
+  },
+  {
+    "id": 172,
+    "difficulty": "professional",
+    "question": "// Topic: Multithreading\nclass MyThread extends Thread {\n  public void run() {\n    System.out.println(\"Running\");\n  }\n}\nnew MyThread().start();",
+    "choices": [
+      "Running",
+      "Error",
+      "Compilation failed",
+      "Nothing"
+    ],
+    "answer": "Running"
+  },
+  {
+    "id": 173,
+    "difficulty": "professional",
+    "question": "// Topic: Collections\nMap<String, Integer> map = new HashMap<>();\nmap.put(\"A\", 1);\nSystem.out.println(map.get(\"A\"));",
+    "choices": [
+      "1",
+      "A",
+      "null",
+      "Error"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 174,
+    "difficulty": "professional",
+    "question": "// Topic: Streams API\nList<Integer> nums = Arrays.asList(1,2,3,4);\nnums.stream().filter(n -> n % 2 == 0).forEach(System.out::print);",
+    "choices": [
+      "24",
+      "13",
+      "1234",
+      "Error"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": 175,
+    "difficulty": "professional",
+    "question": "// Topic: Lambda Expressions\nList<String> list = Arrays.asList(\"A\", \"B\");\nlist.forEach(s -> System.out.print(s));",
+    "choices": [
+      "AB",
+      "BA",
+      "Error",
+      "Nothing"
+    ],
+    "answer": "AB"
+  },
+  {
+    "id": 176,
+    "difficulty": "professional",
+    "question": "// Topic: File I/O\ntry (BufferedReader br = new BufferedReader(new FileReader(\"file.txt\"))) {\n  System.out.println(br.readLine());\n}",
+    "choices": [
+      "Prints line",
+      "Error",
+      "Exception",
+      "file.txt"
+    ],
+    "answer": "Prints line"
+  },
+  {
+    "id": 177,
+    "difficulty": "professional",
+    "question": "// Topic: Generics\nclass Box<T> {\n  T val;\n  void set(T val) { this.val = val; }\n  T get() { return val; }\n}",
+    "choices": [
+      "Generic class",
+      "Error",
+      "No output",
+      "T"
+    ],
+    "answer": "Generic class"
+  },
+  {
+    "id": 178,
+    "difficulty": "professional",
+    "question": "// Topic: Annotations\nclass Parent { void show() {} }\nclass Child extends Parent {@Override void show() {}}",
+    "choices": [
+      "Valid",
+      "Invalid",
+      "Error",
+      "Warning"
+    ],
+    "answer": "Valid"
+  },
+  {
+    "id": 179,
+    "difficulty": "professional",
+    "question": "// Topic: Serialization\nclass Person implements Serializable {\n  String name;\n}",
+    "choices": [
+      "Can be saved to file",
+      "Error",
+      "Exception",
+      "name"
+    ],
+    "answer": "Can be saved to file"
+  },
+  {
+    "id": 180,
+    "difficulty": "professional",
+    "question": "// Topic: JDBC\nConnection con = DriverManager.getConnection(url, user, pass);",
+    "choices": [
+      "Open DB",
+      "Error",
+      "Connect fail",
+      "Warning"
+    ],
+    "answer": "Open DB"
+  },
+  {
+    "id": 181,
+    "difficulty": "professional",
+    "question": "// Topic: Exception Handling\ntry {\n  int x = 5 / 0;\n} catch(ArithmeticException e) {\n  System.out.println(\"Error\");\n}",
+    "choices": [
+      "Error",
+      "0",
+      "Exception",
+      "5"
+    ],
+    "answer": "Error"
+  },
+  {
+    "id": 182,
+    "difficulty": "professional",
+    "question": "// Topic: Multithreading\nclass MyThread extends Thread {\n  public void run() {\n    System.out.println(\"Running\");\n  }\n}\nnew MyThread().start();",
+    "choices": [
+      "Running",
+      "Error",
+      "Compilation failed",
+      "Nothing"
+    ],
+    "answer": "Running"
+  },
+  {
+    "id": 183,
+    "difficulty": "professional",
+    "question": "// Topic: Collections\nMap<String, Integer> map = new HashMap<>();\nmap.put(\"A\", 1);\nSystem.out.println(map.get(\"A\"));",
+    "choices": [
+      "1",
+      "A",
+      "null",
+      "Error"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 184,
+    "difficulty": "professional",
+    "question": "// Topic: Streams API\nList<Integer> nums = Arrays.asList(1,2,3,4);\nnums.stream().filter(n -> n % 2 == 0).forEach(System.out::print);",
+    "choices": [
+      "24",
+      "13",
+      "1234",
+      "Error"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": 185,
+    "difficulty": "professional",
+    "question": "// Topic: Lambda Expressions\nList<String> list = Arrays.asList(\"A\", \"B\");\nlist.forEach(s -> System.out.print(s));",
+    "choices": [
+      "AB",
+      "BA",
+      "Error",
+      "Nothing"
+    ],
+    "answer": "AB"
+  },
+  {
+    "id": 186,
+    "difficulty": "professional",
+    "question": "// Topic: File I/O\ntry (BufferedReader br = new BufferedReader(new FileReader(\"file.txt\"))) {\n  System.out.println(br.readLine());\n}",
+    "choices": [
+      "Prints line",
+      "Error",
+      "Exception",
+      "file.txt"
+    ],
+    "answer": "Prints line"
+  },
+  {
+    "id": 187,
+    "difficulty": "professional",
+    "question": "// Topic: Generics\nclass Box<T> {\n  T val;\n  void set(T val) { this.val = val; }\n  T get() { return val; }\n}",
+    "choices": [
+      "Generic class",
+      "Error",
+      "No output",
+      "T"
+    ],
+    "answer": "Generic class"
+  },
+  {
+    "id": 188,
+    "difficulty": "professional",
+    "question": "// Topic: Annotations\nclass Parent { void show() {} }\nclass Child extends Parent {@Override void show() {}}",
+    "choices": [
+      "Valid",
+      "Invalid",
+      "Error",
+      "Warning"
+    ],
+    "answer": "Valid"
+  },
+  {
+    "id": 189,
+    "difficulty": "professional",
+    "question": "// Topic: Serialization\nclass Person implements Serializable {\n  String name;\n}",
+    "choices": [
+      "Can be saved to file",
+      "Error",
+      "Exception",
+      "name"
+    ],
+    "answer": "Can be saved to file"
+  },
+  {
+    "id": 190,
+    "difficulty": "professional",
+    "question": "// Topic: JDBC\nConnection con = DriverManager.getConnection(url, user, pass);",
+    "choices": [
+      "Open DB",
+      "Error",
+      "Connect fail",
+      "Warning"
+    ],
+    "answer": "Open DB"
+  },
+  {
+    "id": 191,
+    "difficulty": "professional",
+    "question": "// Topic: Exception Handling\ntry {\n  int x = 5 / 0;\n} catch(ArithmeticException e) {\n  System.out.println(\"Error\");\n}",
+    "choices": [
+      "Error",
+      "0",
+      "Exception",
+      "5"
+    ],
+    "answer": "Error"
+  },
+  {
+    "id": 192,
+    "difficulty": "professional",
+    "question": "// Topic: Multithreading\nclass MyThread extends Thread {\n  public void run() {\n    System.out.println(\"Running\");\n  }\n}\nnew MyThread().start();",
+    "choices": [
+      "Running",
+      "Error",
+      "Compilation failed",
+      "Nothing"
+    ],
+    "answer": "Running"
+  },
+  {
+    "id": 193,
+    "difficulty": "professional",
+    "question": "// Topic: Collections\nMap<String, Integer> map = new HashMap<>();\nmap.put(\"A\", 1);\nSystem.out.println(map.get(\"A\"));",
+    "choices": [
+      "1",
+      "A",
+      "null",
+      "Error"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 194,
+    "difficulty": "professional",
+    "question": "// Topic: Streams API\nList<Integer> nums = Arrays.asList(1,2,3,4);\nnums.stream().filter(n -> n % 2 == 0).forEach(System.out::print);",
+    "choices": [
+      "24",
+      "13",
+      "1234",
+      "Error"
+    ],
+    "answer": "24"
+  },
+  {
+    "id": 195,
+    "difficulty": "professional",
+    "question": "// Topic: Lambda Expressions\nList<String> list = Arrays.asList(\"A\", \"B\");\nlist.forEach(s -> System.out.print(s));",
+    "choices": [
+      "AB",
+      "BA",
+      "Error",
+      "Nothing"
+    ],
+    "answer": "AB"
+  },
+  {
+    "id": 196,
+    "difficulty": "professional",
+    "question": "// Topic: File I/O\ntry (BufferedReader br = new BufferedReader(new FileReader(\"file.txt\"))) {\n  System.out.println(br.readLine());\n}",
+    "choices": [
+      "Prints line",
+      "Error",
+      "Exception",
+      "file.txt"
+    ],
+    "answer": "Prints line"
+  },
+  {
+    "id": 197,
+    "difficulty": "professional",
+    "question": "// Topic: Generics\nclass Box<T> {\n  T val;\n  void set(T val) { this.val = val; }\n  T get() { return val; }\n}",
+    "choices": [
+      "Generic class",
+      "Error",
+      "No output",
+      "T"
+    ],
+    "answer": "Generic class"
+  },
+  {
+    "id": 198,
+    "difficulty": "professional",
+    "question": "// Topic: Annotations\nclass Parent { void show() {} }\nclass Child extends Parent {@Override void show() {}}",
+    "choices": [
+      "Valid",
+      "Invalid",
+      "Error",
+      "Warning"
+    ],
+    "answer": "Valid"
+  },
+  {
+    "id": 199,
+    "difficulty": "professional",
+    "question": "// Topic: Serialization\nclass Person implements Serializable {\n  String name;\n}",
+    "choices": [
+      "Can be saved to file",
+      "Error",
+      "Exception",
+      "name"
+    ],
+    "answer": "Can be saved to file"
+  },
+  {
+    "id": 200,
+    "difficulty": "professional",
+    "question": "// Topic: JDBC\nConnection con = DriverManager.getConnection(url, user, pass);",
+    "choices": [
+      "Open DB",
+      "Error",
+      "Connect fail",
+      "Warning"
+    ],
+    "answer": "Open DB"
+  }
+]
